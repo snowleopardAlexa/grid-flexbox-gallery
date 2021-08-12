@@ -26,8 +26,11 @@
     background-position: center;
     background-size: cover;
     grid-area: box1;
-    /* flexbox applied to one grid area 
-    align-self: center; */
+    /* flexbox aligning items(text) center to one grid area */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
 }
 
 .box2 {
@@ -36,11 +39,8 @@
     background-position: center;
     background-size: cover;
     grid-area: box2;
-    /* flexbox aligning items(text) center to one grid area */
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-transform: uppercase;
+    /* flexbox applied to one grid area 
+    align-self: center; */
 }
 
 .box3 {
