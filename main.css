@@ -5,7 +5,8 @@
 }
 
 #smallGrid {
-    height: 100vh;
+    /* applies to all boxes */
+    height: 120vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -18,9 +19,12 @@
 }
 
 .box1 {
+    /* applies to all boxes 
+    height: 400px; */
     background-image: url('img/flowers1.jpg');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     grid-area: box1;
     /* flexbox applied to one grid area 
     align-self: center; */
@@ -30,6 +34,7 @@
     background-image: url('img/flowers2.jpg');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     grid-area: box2;
     /* flexbox aligning items(text) center to one grid area */
     display: flex;
@@ -42,6 +47,7 @@
     background-image: url('img/flowers3.jpg');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     grid-area: box3;
 }
 
@@ -49,6 +55,7 @@
     background-image: url('img/flowers4.jpg');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     grid-area: box4;
 }
 
@@ -56,6 +63,7 @@
     background-image: url('img/flowers5.jpg');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     grid-area: box5;
 }
 
@@ -63,5 +71,6 @@
     background-image: url('img/flowers6.jpg');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     grid-area: box6;
 }
